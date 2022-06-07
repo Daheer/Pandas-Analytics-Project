@@ -8,9 +8,7 @@ the insights are.
 
 # Project Steps
 
-To-Do - Explain in detail, the project steps and overview of different tasks completed here.
-
-Step 1: The necessary python libraries were imported, the csv files for each city was loaded and concatenated into a mother csv file. 
+<h4> Step 1 </h4>: The necessary python libraries were imported, the csv files for each city was loaded and concatenated into a mother csv file. 
 
 Libraries Imported 
 - os
@@ -24,7 +22,7 @@ Methods Used
 - read_csv()
 - to_csv()
 
-Step 2: This step involved checking details about the data
+<h4> Step 2 </h4>: This step involved checking details about the data
 
 Libraries Imported
 - pandas
@@ -42,7 +40,7 @@ Attributes Used
 - shape
 - columns
 
-Step 3: This step involved the parsing of the Date and Time column into new Day, Month, Year and Hour columns.
+<h4> Step 3 </h4>: This step involved the parsing of the Date and Time column into new Day, Month, Year and Hour columns.
 
 Libraries Imported
 - datetime
@@ -57,14 +55,14 @@ Attributes Used
 - year
 - hour
 
-Step 4: Categorical type columns were looked into in this step.
+<h4> Step 4 </h4>: Categorical type columns were looked into in this step.
 
 Methods Used
 - unique()
 - tolist()
 - value_counts()
 
-Step 5: This step aggregates the data by some columns so statistical information like mean and sum can be gotten for those aggreated columns
+<h4> Step 5 </h4>: This step aggregates the data by some columns so statistical information like mean and sum can be gotten for those aggreated columns
 
 Methods Used
 - groupby()
@@ -73,7 +71,7 @@ Methods Used
 - idmax()
 - max()
 
-Step 6: Plots were created using the data in this step. These plots show some very important information that gave insights which will be discussed in a later section of this report.
+<h4> Step 6 </h4>: Plots were created using the data in this step. These plots show some very important information that gave insights which will be discussed in a later section of this report.
 
 Plots Created
 - countplot
@@ -84,7 +82,7 @@ Plots Created
 Methods Used
 - set_title()
 
-Step 7: This part was included as an extra to make this report standout from the rest. It includes more processing of columns and more creation of plots to provide extra insights about the data.
+<h4> Step 7 </h4>: This part was included as an extra to make this report standout from the rest. It includes more processing of columns and more creation of plots to provide extra insights about the data.
 
 Plots Created
 - catplit of 'count' type
