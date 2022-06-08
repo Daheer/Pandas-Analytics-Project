@@ -14,7 +14,9 @@ Libraries Imported
 - os
 - glob
 - pandas
+
 Methods Used
+
 - chdir()
 - glob()
 - concat()
@@ -30,7 +32,9 @@ Libraries Imported
 - seaborn
 - matplotlib.pyplot
 - warnings
+
 Methods Used
+
 - head()
 - describe()
 - isnull()
@@ -44,12 +48,16 @@ Attributes Used
 
 Libraries Imported
 - datetime
+
 Methods Used
+
 - to_datetime()
 - info()
 - nunique()
 - unique()
+
 Attributes Used
+
 - day
 - month
 - year
@@ -58,6 +66,7 @@ Attributes Used
 **Step 4**: Categorical type columns were looked into in this step.
 
 Methods Used
+
 - unique()
 - tolist()
 - value_counts()
@@ -65,6 +74,7 @@ Methods Used
 **Step 5**: This step aggregates the data by some columns so statistical information like mean and sum can be gotten for those aggreated columns
 
 Methods Used
+
 - groupby()
 - agg()
 - sum()
@@ -74,24 +84,32 @@ Methods Used
 **Step 6**: Plots were created using the data in this step. These plots show some very important information that gave insights which will be discussed in a later section of this report.
 
 Plots Created
+
 - countplot
 - boxplot
 - catplot of 'swarm' kind
 - catplot of 'point' kind
 - catplot of 'strip' kind
+
 Methods Used
+
 - set_title()
 
 **Step 7**: This part was included as an extra to make this report standout from the rest. It includes more processing of columns and more creation of plots to provide extra insights about the data.
 
 Plots Created
+
 - catplit of 'count' type
 - countplot
 - barplot
+
 Methods Used
+
 - apply()
 - strftime()
+
 Expressions
+
 - lambda expression
 
 
