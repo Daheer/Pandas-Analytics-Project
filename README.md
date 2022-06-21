@@ -40,13 +40,16 @@ Methods Used
 - isnull()
 - sum()
 - info()
+
 Attributes Used
+
 - shape
 - columns
 
 **Step 3**: This step involved the parsing of the Date and Time column into new Day, Month, Year and Hour columns.
 
 Libraries Imported
+
 - datetime
 
 Methods Used
@@ -151,4 +154,4 @@ XYZ could take note of the arrival and exit times of each customer in order to k
 
 # Executive Summary.
 
-Can be found in Executive_Summary.md
+Can be found in <a href = 'Executive_Summary.md'> Executive_Summary.md </a>
